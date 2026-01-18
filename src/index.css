@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-orange: #FF6500; /* Ember Orange */
+  --color-deep-navy: #1E3E62;     /* Professional Navy */
+  --color-dark-charcoal: #0B192C; /* Deep Background */
+  --color-pure-black: #000000;    /* Absolute Base */
+}
+
+@layer utilities {
+  /* Menyembunyikan scrollbar di semua browser */
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  /* Menggunakan Hitam murni sebagai dasar untuk kedalaman visual */
+  @apply bg-pure-black text-slate-300 antialiased font-sans;
+}
+
+/* Scrollbar Industrial Style */
+::-webkit-scrollbar { height: 4px; width: 4px; }
+::-webkit-scrollbar-track { @apply bg-pure-black; }
+::-webkit-scrollbar-thumb { @apply bg-primary-orange rounded-full; }
