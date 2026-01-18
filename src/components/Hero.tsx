@@ -21,7 +21,7 @@ export const Hero = () => {
             <div className="relative group w-64 h-80 md:w-80 md:h-105">
               <div className="absolute inset-0 border border-primary-orange translate-x-3 translate-y-3 transition-transform group-hover:translate-x-1 group-hover:translate-y-1"></div>
               <div className="relative w-full h-full bg-dark-charcoal grayscale group-hover:grayscale-0 transition-all duration-700 overflow-hidden">
-                <img src="/pp.jpg" alt="Profile" className="w-full h-full object-cover" />
+                <img src="/nandaarjuna.me/public/pp.jpg" alt="Profile" className="w-full h-full object-cover" />
               </div>
             </div>
           </div>
