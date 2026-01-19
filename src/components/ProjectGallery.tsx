@@ -19,27 +19,32 @@ export const ProjectGallery = () => {
       "Scikit-learn": "scikitlearn",
       "MLflow": "mlflow",
       
-      // Backend & Data Processing
+      // Backend & ERP (Odoo ditambahkan di sini)
+      "Odoo 17": "odoo",
       "FastAPI": "fastapi",
       "FAISS": "meta",
       "Pandas": "pandas",
       "NumPy": "numpy",
       
-      // BI & Deployment (Baru ditambahkan)
+      // BI, Database & Deployment
+      "PostgreSQL": "postgresql",
+      "MySQL": "mysql",
       "Metabase": "metabase",
       "Streamlit": "streamlit",
       "Docker": "docker",
       "Prometheus": "prometheus",
       "Grafana": "grafana",
       
-      // Frontend
+      // Frontend & Libraries
+      "JavaScript (ES6+)": "javascript",
+      "Bootstrap 5": "bootstrap",
+      "SweetAlert2": "sweetalert2",
       "React.js": "react",
       "React + Vite": "vite",
       "Tailwind CSS": "tailwindcss",
       
       // Database & PHP
-      "Laravel": "laravel",
-      "MySQL": "mysql"
+      "Laravel": "laravel"
     };
     
     const iconSlug = iconMap[tech] || tech.toLowerCase().replace(/\s+/g, '');

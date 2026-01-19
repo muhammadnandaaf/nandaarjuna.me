@@ -39,14 +39,20 @@ export const projectsData: Project[] = [
   {
     id: 3,
     category: 'web',
-    title: "SOON",
-    subtitle: "-",
-    description: "-",
-    techStack: ["-"],
-    imageUrl: "/nandaarjuna.me/soon.png", 
-    detailImage : "/nandaarjuna.me/soon.png",
-    features: ["-"],
-    githubUrl: "-"
+    title: "Badminton Court Rental System",
+    subtitle: "Enterprise Resource Planning (ERP) Module",
+    description: "A comprehensive Odoo-based management system for sports facilities featuring a public booking portal, automated pricing logic, and conflict prevention engine.",
+    techStack: ["Odoo 17", "Python", "PostgreSQL", "JavaScript (ES6+)", "Bootstrap 5", "SweetAlert2"],
+    imageUrl: "/nandaarjuna.me/badminton-cover.png", 
+    detailImage : "/nandaarjuna.me/badminton-detail.png",
+    features: [
+      "Real-time Public Booking Portal",
+      "Dynamic Session-based Pricing Logic",
+      "Automated Overlap & Conflict Validation",
+      "Interactive AJAX-based Price Estimator",
+      "Operational Expense & Revenue Tracking"
+    ],
+    githubUrl: "https://github.com/muhammadnandaaf/BadmintonRental-OdooSystem"
   },
   {
     id: 4,
