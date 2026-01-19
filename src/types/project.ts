@@ -43,8 +43,8 @@ export const projectsData: Project[] = [
     subtitle: "Enterprise Resource Planning (ERP) Module",
     description: "A comprehensive Odoo-based management system for sports facilities featuring a public booking portal, automated pricing logic, and conflict prevention engine.",
     techStack: ["Odoo 17", "Python", "PostgreSQL", "JavaScript (ES6+)", "Bootstrap 5", "SweetAlert2"],
-    imageUrl: "/nandaarjuna.me/badminton-cover.png", 
-    detailImage : "/nandaarjuna.me/badminton-detail.png",
+    imageUrl: "/nandaarjuna.me/book-cover.png", 
+    detailImage : "/nandaarjuna.me/book-detail2.png",
     features: [
       "Real-time Public Booking Portal",
       "Dynamic Session-based Pricing Logic",
